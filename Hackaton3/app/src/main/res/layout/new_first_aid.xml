@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <LinearLayout
+    android:id="@+id/tabUniversalHelpNumber"
+    android:layout_width="250dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+        android:orientation="vertical"
+        android:layout_alignBottom="@+id/tabUniversalPolice"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="59dp">
+
+        <TextView
+            android:id="@+id/UniversalHelpNumberTV"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Universal Help Number:"
+            android:textColor="@color/colorFont" />
+
+        <TextView
+        android:layout_width="250dp"
+            android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorLine" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <LinearLayout
+        android:id="@+id/tabUniversalPolice"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+
+        android:orientation="vertical"
+        android:layout_marginBottom="58dp"
+        android:layout_alignBottom="@+id/tabHospital"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/policeHelpNumberTV"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Police:"
+            android:textColor="@color/colorFont" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <LinearLayout
+        android:id="@+id/tabHospital"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+
+        android:orientation="vertical"
+        android:layout_alignBottom="@+id/tabFireBridge"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="58dp">
+
+        <TextView
+            android:id="@+id/hospitalHelpNumberTV"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Hospital:"
+            android:textColor="@color/colorFont" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorLine" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <LinearLayout
+            android:id="@+id/tabFireBridge"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginBottom="250dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fireBridgeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="Fire Bridge:"
+                android:textColor="@color/colorFont" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorLine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/firstStepTXT"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"
+            android:gravity="center_vertical"
+            android:textSize="30dp"
+            android:text="buła"
+            android:textColor="@color/colorFont" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorLine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/secoundStepTXT"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"
+            android:gravity="center_vertical"
+            android:textSize="30dp"
+            android:text="Lokiec"
+            android:textColor="@color/colorFont" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorLine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/thirdStep"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"
+            android:gravity="center_vertical"
+            android:textSize="30dp"
+            android:text="Lokiec"
+            android:textColor="@color/colorFont" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorLine" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fourthStep"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"
+            android:gravity="center_vertical"
+            android:textSize="30dp"
+            android:text="Lokiec"
+            android:textColor="@color/colorFont" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorLine" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fifthStep"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/back"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:text="Lokiec"
+        android:textColor="@color/colorFont" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/colorLine" />
+
+    </LinearLayout>
+
+</LinearLayout>

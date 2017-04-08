@@ -1,0 +1,23 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="150dp"
+    android:width="150dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100" >
+    <group
+        android:name="minutes"
+        android:pivotX="50"
+        android:pivotY="50"
+        android:rotation="0">
+        <path
+            android:strokeColor="@android:color/white"
+              android:strokeWidth="@integer/stroke_width"
+            android:strokeLineCap="round"
+            android:pathData="M 50,50 L 50,12"/>
+    </group>
+
+    <path
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="@integer/stroke_width"
+        android:pathData="@string/path_circle"/>
+</vector>
